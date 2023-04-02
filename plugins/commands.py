@@ -6,6 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import UserNotParticipant
 import random
 from utils import Media
+from info import START_MSG, CHANNELS, ADMINS, INVITE_MSG
 
 logger = logging.getLogger(__name__)
 
