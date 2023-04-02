@@ -9,6 +9,7 @@ from utils import Media
 
 logger = logging.getLogger(__name__)
 
+force_channel = "SC_Linkzz"
 
 @Client.on_message(filters.command('start'))
 async def start(client, message):
